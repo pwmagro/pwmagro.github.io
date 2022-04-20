@@ -209,7 +209,8 @@ h1 {
     background-color: #ffccff;
     background-image: linear-gradient(to top, #aa77ff, #ffccff);
     background-size: 100%;
-    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
 }
 
@@ -219,7 +220,8 @@ h2 {
     background-color: #ccccff;
     background-image: linear-gradient(to bottom, #559999, #ccffff);
     background-size: 100%;
-    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
 }
 
@@ -255,7 +257,8 @@ p {
     background-color: #ffccff;
     background-image: linear-gradient(to top, #aa77ff, #ffccff);
     background-size: 100%;
-    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
 }
 
@@ -265,7 +268,8 @@ p {
     background-color: #ccccff;
     background-image: linear-gradient(to bottom, #559999, #ccffff);
     background-size: 100%;
-    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     color: transparent;
 }
 
