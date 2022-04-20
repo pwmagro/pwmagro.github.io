@@ -4,44 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Montserrat">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
     <title>peter magro</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar__container">
 
-            <a href="/" id="navbar__logo">peter magro</a>
-            
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
+    <nav class="sidebar">
+        <div class="sidebar_cont">
 
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">
-                        Home
+            <div id="sidebar_logo">peter magro</div>
+
+            <ul class="sidebar_nav">
+
+                <li class="sidebar_item">
+                    <a href="/" class="sidebar_link">
+                        home
                     </a>
                 </li>
                 
-                <li class="navbar__item">
-                    <a href="/tech.html" class="navbar__links">
-                        a button
+                <li class="sidebar_item">
+                    <a href="/ergodash.html" class="sidebar_link">
+                        ergodash
                     </a>
                 </li>
-
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links">
-                        another button
+                
+                <li class="sidebar_item">
+                    <a href="/art.html" class="sidebar_link">
+                        art
                     </a>
                 </li>
-
-                <li class="navbar__btn">
-                    <a href="/" class="button">
-                        biiiigbutton
+                
+                <li class="sidebar_item">
+                    <a href="/music.html" class="sidebar_link">
+                        music
                     </a>
                 </li>
 
@@ -50,43 +49,22 @@
         </div>
     </nav>
 
-
-    <!-- Main Content -->
     <div class="main">
-        <div class="main__container">
-            <div class="main__content">
-                <h1>look at my</h1>
-                <h2>gradients</h2>
-                <p>peter peter magro magro</p>
-
-                <button class="main__btn"><a href="/">meeee</a></button>
+        <div class="main_container">
+                
+            <div class="main_col">
+                content
             </div>
-            <div class="main__img--container">
-                <img src="images/chika_recolor.png" alt="pic" id="main__img" />
+                
+            <div class="main_col">
+                content
             </div>
-        </div>
-    </div>
-
-    <!-- Another section -->
-    <div class="services">
-        <h1>Stupid text</h1>
-
-        <div class="services__container">
-            <div class="services__card">
-                <h2>aaaaaaaaaa</h2>
-                <p>lorem ipsum lorem lorem ipsum</p>
-                <button>dumb</button>
-            </div>
-
-            <div class="services__card">
-                <h2>one wasn't enough</h2>
-                <p>ipsum ipsum lorem ipsum lorem</p>
-                <button>still dumb</button>
-            </div>
+                
+            <div class="main_col">content</div>
+            
+            <div class="main_col">content</div>
 
         </div>
     </div>
-
-    <script src="app.js"></script>
 </body>
 </html>
