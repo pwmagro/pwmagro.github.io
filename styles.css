@@ -322,7 +322,20 @@ p {
 }
 
 .main__img--container {
+    /* padding: 150px 0px 0px 0px; */
     text-align: center;
+    position: sticky;
+    top: 75px;
+    
+    /* background: #222;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999; */
 }
 
 #main__img {
