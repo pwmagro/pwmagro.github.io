@@ -26,13 +26,12 @@
 }
 
 h1 {
-    padding-bottom: 3rem;
     font-family: "Montserrat", monospace;
     font-weight: 400;
     font-size: 5rem;
     text-align: right;
     background: #af61ce;
-    background-image: linear-gradient(170deg, #ccf3ff 0%, #618dce 10%, #275a8a 80%, #3357cf 100%);
+    background-image: linear-gradient(170deg, #d9f1f8 0%, #88a9da 10%, #437bb3 80%, #496ad6 100%);
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     background-clip: text;
