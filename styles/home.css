@@ -29,25 +29,27 @@ h1 {
     padding-bottom: 3rem;
     font-family: "Montserrat", monospace;
     font-weight: 400;
-    font-size: 4rem;
+    font-size: 5rem;
     text-align: right;
     background: #af61ce;
-    background-image: linear-gradient(170deg, #ffccff 0%, #af61ce 10%, #8a277d 80%, #b533cf 100%);
+    background-image: linear-gradient(170deg, #ccf3ff 0%, #618dce 10%, #275a8a 80%, #3357cf 100%);
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     background-clip: text;
 }
 
 h2 {
-    color: #abc5dd;
-    text-align: left;
+    font-weight: 300;
+    color: #af61ce;
+    text-align: right;
     padding-bottom: 0.5rem;
     font-size: 2.5rem;
 }
 
 p {
+    font-weight: 800;
     text-indent: 3rem;
     font-size: 1.2rem;
     text-align: justify;
-    color: #b093bb;
+    color: rgb(173, 147, 180);
 }
