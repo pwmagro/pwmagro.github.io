@@ -1,0 +1,59 @@
+body {
+    background: #181818;
+}
+
+.cs-container {
+    width: 80vw;
+    height: 90vh;
+    margin: auto;
+    display: relative;
+}
+
+.cs-image {
+    display: block;
+    max-width: 538px;
+    width: 50vw;
+    margin: auto;
+    padding-top: 10vh;
+}
+
+.cs-title {
+    color: #37C8AB;
+    font-family: "Roboto Mono", monospace;
+    font-size: 7vw;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.cs-body {
+    color: rgb(197, 170, 194);
+    font-family: "Roboto Mono", monospace;
+    font-size: 3vw;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(190, 69, 201);
+    transition: opacity 0.3s ease;
+}
+
+.cs-copyright a {
+    color: rgb(150, 106, 150);
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.cs-copyright {
+    color: #646464;
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 700;
+}
