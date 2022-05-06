@@ -6,6 +6,16 @@
     z-index: -1;
 }
 
+.master a:link {
+    text-decoration: underline;
+    color: #54c5a8;
+}
+
+.master a:visited {
+    text-decoration: underline;
+    color: #54c5a8;
+}
+
 .master {
     display: grid;
     grid-template-columns: 150px;
@@ -27,28 +37,32 @@
 
 h1 {
     font-family: "Montserrat", monospace;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 5rem;
     text-align: right;
-    background: #af61ce;
-    background-image: linear-gradient(170deg, #d9f1f8 0%, #88a9da 10%, #437bb3 80%, #496ad6 100%);
+    background: #54c5a8;
+    background-image: linear-gradient(-10deg, #b2ebdb 0%, #338672 10%, #54c5a8 80%, #1e725d 100%);
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     background-clip: text;
+    line-height: 100%;
+    padding: 1rem 0;
 }
 
 h2 {
-    font-weight: 300;
+    font-family: "Montserrat";
+    font-weight: 500;
     color: #af61ce;
     text-align: right;
-    padding-bottom: 0.5rem;
-    font-size: 2.5rem;
+    padding: 1rem 0;
+    font-size: 2rem;
 }
 
 p {
+    padding: 1rem 0;
     font-weight: 800;
     text-indent: 3rem;
     font-size: 1.2rem;
     text-align: justify;
-    color: rgb(173, 147, 180);
+    color: rgb(202, 186, 206);
 }
